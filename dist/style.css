@@ -1,0 +1,76 @@
+.recruitment {
+    margin-top: 20px;
+    padding: 30px 20px;
+    background-color: white;
+
+}
+
+.recruitmentH2 {
+    margin: 0 0 40px;
+}
+
+.recruitment ul {
+    list-style: disc;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.recruitment li {
+    margin: 0 0 15px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: #f0f0f1;
+    font-size: 1.1rem;
+
+}
+
+.recruitment ul li:last-child {
+    margin-bottom: 0;
+}
+
+.recruitment li p {
+    font-size: 1rem;
+    padding: 10px 5px;
+    background-color: #f2f2f2;
+}
+
+.recruitment li p button {
+    float: right;
+}
+
+.recruitment_checkbox {
+    border-color: black;
+}
+
+button {
+    background-color: white;
+    padding: 0 20px;
+    margin-right: 20px;
+    transition: .3s;
+}
+
+button:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+#clearAllBtn {
+    padding: 10px 20px;
+}
+
+.rdrTitle {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.rdrDescription {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+form {
+    margin: 0;
+}
